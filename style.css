@@ -24,3 +24,26 @@ body {
   height: 120px;
   background-color: #080001;
 }
+.home,
+.guest {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.score-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.score-buttons button {
+  padding: 12px;
+  border-radius: 5px;
+  border: 2px solid #9aabd8;
+  background-color: #1b244a;
+  color: #9aabd8;
+}
