@@ -17,3 +17,10 @@ body {
 .container h3 {
   color: #eeeeee;
 }
+
+.home-scoreboard,
+.guest-scoreboard {
+  width: 155px;
+  height: 120px;
+  background-color: #080001;
+}
