@@ -46,4 +46,17 @@ body {
   border: 2px solid #9aabd8;
   background-color: #1b244a;
   color: #9aabd8;
+  font-family: 'Cursed Timer ULiL', sans-serif;
+  font-size: 15px;
+}
+
+.home-score,
+.guest-score {
+  margin: 5px auto;
+  font-family: 'Cursed Timer ULiL', sans-serif;
+  font-size: 90px;
+  font-weight: 400;
+  line-height: 126.67px;
+  text-align: center;
+  color: #f94f6d;
 }
