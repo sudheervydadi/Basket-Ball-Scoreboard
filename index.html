@@ -14,23 +14,23 @@
     <div class="container">
       <div class="home">
         <h3>HOME</h3>
-        <div class="home-scoreboard"><h2 class="home-score">5</h3></div>
+        <div class="home-scoreboard"><h2 id="home-score">0</h3></div>
         <div class="score-buttons">
-          <button>+1</button>
-          <button>+2</button>
-          <button>+3</button>
+          <button type="button" onclick="addHomeScore(1)">+1</button>
+          <button type="button" onclick="addHomeScore(2)">+2</button>
+          <button type="button" onclick="addHomeScore(3)">+3</button>
         </div>
       </div>
       <div class="guest">
         <h3>GUEST</h3>
-        <div class="guest-scoreboard"><h2 class="guest-score">12</h3></div>
+        <div class="guest-scoreboard"><h2 id="guest-score">0</h3></div>
         <div class="score-buttons">
-          <button>+1</button>
-          <button>+2</button>
-          <button>+3</button>
+          <button type="button" onclick="addGuestScore(1)">+1</button>
+          <button type="button" onclick="addGuestScore(2)">+2</button>
+          <button type="button" onclick="addGuestScore(3)">+3</button>
         </div>
       </div>
     </div>
-    <script src="index.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>

@@ -50,8 +50,8 @@ body {
   font-size: 15px;
 }
 
-.home-score,
-.guest-score {
+#home-score,
+#guest-score {
   margin: 5px auto;
   font-family: 'Cursed Timer ULiL', sans-serif;
   font-size: 90px;
